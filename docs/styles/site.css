@@ -124,8 +124,9 @@ main {
         }
     }
 }
-.intro{
-    grid-column:1/6;
+
+.intro {
+    grid-column: 1/6;
 }
 
 .image-box {
@@ -144,7 +145,6 @@ main {
 
 img {
     display: block;
-    max-width: 100%;
     width: 100%;
     height: auto;
     border: 3px solid var(--mainDark);
@@ -212,6 +212,7 @@ footer {
         list-style: none;
     }
 }
+
 form {
     max-width: 800px;
     margin: 20px auto;
@@ -245,7 +246,7 @@ label {
 }
 
 input,
-select{
+select,textarea {
     width: 100%;
     padding: 10px;
     margin: 6px 0 15px;
@@ -285,14 +286,14 @@ button[type="submit"]:hover {
 /* Hours and rates table styling */
 table {
     width: 50%;
-    height:10%;
+    height: 10%;
     border-collapse: collapse;
     margin: 40px 40px;
     background-color: var(--secondaryLight);
     font-family: var(--mainFont);
     font-size: 1.8em;
     align-content: center;
-    
+
 }
 
 th,
@@ -388,7 +389,8 @@ footer {
         width: 40%;
         margin: 5px 0 10px 12px;
     }
-    form{
+
+    form {
         grid-column: 1 / 3;
     }
 
